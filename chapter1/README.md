@@ -87,7 +87,7 @@ In order to quickly find relevant content in messy log files, searching and sort
   - `w` : Match whole word
   - `o` : Print only the matched parts of a matching line,
 #### fgrep
-- Syntax: `grep string [file]`
+- Syntax: `fgrep string [file]`
 - Description: Prints out every line in `file` that contains `string`. The main difference to `grep` is that it searches for a string rather than a pattern.
 - Example 1: `fgrep '1' lines.txt` works just like the `grep` version.
 - Example 2: `fgrep '.' lines.txt` will print nothing, unlike the `grep` version.
