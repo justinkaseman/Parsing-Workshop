@@ -46,9 +46,13 @@ The following commands are used for examining files and are often used when pars
 - Example: Try `less example.txt`!
 - Action item: Read this [article](https://www.lifewire.com/what-to-know-less-command-4051972).
 #### head/tail
-- Syntax: `less file`, `more file`
-- Description: Reads files sequentially and writes them to standard output.
-- Example: `cat example.txt other.txt` will print both `example.txt` and `other.txt` to the console.
+- Syntax: `head file`, `tail file`
+- Description:
+    - `head`: Outputs the first 10 lines of a file
+    - `tail`: Outputs the last 10 lines of a file
+- Example: `head example.txt`
+- Notable Options:
+  - `n`: the number of lines to print
 #### wc
 - Syntax: `wc file1 file2 ..`
 - Description: `wc`, short for "word count," prints a count of newlines, words, and bytes for each input file.
